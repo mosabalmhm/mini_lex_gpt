@@ -1,0 +1,68 @@
+# =======================
+# Python
+#==================
+
+__pytorch__/
+*.py[cod]
+*$py.class
+*.so
+
+# ====================
+# Virtual environments
+# ======================
+.venv/
+venv/
+env/
+
+# ==========================
+# Python packging
+# ========================== 
+*.egg-info/
+build/
+dist/
+
+# ============================
+# Testing / caches
+# =======================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Enviroment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Model checkpoints
+# ==========================
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# =====================
+# Dataset generated/cache
+# ============================
+data/raw/
+data/processed/
+data/cache/
+
+# ===============================
+# Editors / OS
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+*~
+*#
+*.swp
+*.swo
+

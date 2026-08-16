@@ -1,0 +1,17 @@
+[bulid-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.bulid_meta"
+
+[project]
+name = "mini-lex-gpt"
+version = "0.1.0"
+description = "A small decoder-only English language model built from scratch in pyTorch."
+readme = "README.md" 
+requires-python = ">=3.10"
+authors = [
+    { name = "Mosab Al Mohammad"}
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
