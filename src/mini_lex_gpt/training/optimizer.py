@@ -81,7 +81,7 @@ def build_adamw_optimizer(
             "weight_decay": weight_decay,
         },
         {
-            "params": decay_parameters,
+            "params": no_decay_parameters,
             "weight_decay": 0.0,
         },
     ]

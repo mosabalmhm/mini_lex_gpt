@@ -51,7 +51,7 @@ def main() -> None:
         ]
 
         parameter_count = sum(
-            parameter.numl()
+            parameter.numel()
             for parameter in parameters
         )
 
@@ -109,7 +109,7 @@ def main() -> None:
     
     parameter_group_lookup = {}
 
-    for group_indx, group in enumerate(
+    for group_index, group in enumerate(
         optimizer.param_groups
     ):
         for parameter in group[
